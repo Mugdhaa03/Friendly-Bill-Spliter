@@ -1,0 +1,11 @@
+name = "shared-bill-splitter-api"
+main = "src/worker.ts"
+compatibility_date = "2025-05-20"
+
+[observability]
+enabled = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "splitter-db"
+database_id = "local"
